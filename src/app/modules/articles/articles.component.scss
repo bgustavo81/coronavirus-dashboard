@@ -21,3 +21,9 @@ a:active {
   color: blue($color: #141414);
 }
 
+.mat-card-actions {
+  margin-left: -8px;
+  margin-right: -8px;
+  text-align: center;
+  padding: 8px 0;
+}
