@@ -1,0 +1,23 @@
+.article-cards {
+  .mat-card {
+    overflow: hidden;
+  }
+  width: 80%;
+  margin: 0 auto 20px auto;
+}
+
+a:visited, a:link {
+  color: #141414;
+  text-decoration: none;
+}
+
+a:active {
+  color:  #0099ff;
+  text-decoration: none;
+}
+
+.article-item {
+  text-decoration: none;
+  color: blue($color: #141414);
+}
+
