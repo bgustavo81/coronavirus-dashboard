@@ -23,7 +23,7 @@ export class BarComponent implements OnInit {
         type: 'bar'
     },
     title: {
-        text: 'Coronavirus Cases By State 06/11/2020'
+        text: 'Coronavirus Cases By State (USA) 06/11/2020'
     },
     subtitle: {
         text: 'Source: THE COVID TRACKING PROJECT'
