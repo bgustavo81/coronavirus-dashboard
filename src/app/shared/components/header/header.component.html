@@ -1,0 +1,27 @@
+<mat-toolbar style="background: #3fadb5; color: aliceblue;">
+    <mat-toolbar-row>
+        <button mat-icon-button (click)="toggleSideBar()">
+            <mat-icon>menu</mat-icon>
+        </button>
+
+        <span> Coronavirus Dashboard </span>
+
+        <div fxFlex fxLayout="row" fxLayoutAlign="flex-end">
+            <ul fxLayout="row" fxLayoutGap="20px">
+
+                <li>
+                    <button mat-button [matMenuTriggerFor]="menu">
+                        <mat-icon>help_outline</mat-icon>
+                    </button>
+                    <mat-menu #menu="matMenu" class="header-info">
+                        <div class="menu-panel">
+                            These numbers reflect the estimated cases recorded up to June 11 2020 or June 22, 2020.
+                            For updated information, please use the APIs in the Interest section.
+                        </div>
+                    </mat-menu>
+
+                </li>
+            </ul>
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>
